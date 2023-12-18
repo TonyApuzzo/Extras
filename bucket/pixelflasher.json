@@ -1,0 +1,17 @@
+{
+    "version": "6.3.3.0",
+    "description": "PixelFlasher - a tool for flashing images to Android devices.",
+    "homepage": "https://github.com/badabing2005/PixelFlasher",
+    "license": "GPL-3.0 license",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/badabing2005/PixelFlasher/releases/download/v6.3.3.0/PixelFlasher.exe",
+            "hash": "b7f0eb38539f4299a1615c2bc869e878b8300671cda7eb87345c469beb457f59"
+        },
+        "checkver": {
+            "github": "https://github.com/badabing2005/PixelFlasher"
+        }
+    },
+    "bin": "PixelFlasher.exe",
+    "shortcuts": [["PixelFlasher.exe", "PixelFlasher"]]
+}
