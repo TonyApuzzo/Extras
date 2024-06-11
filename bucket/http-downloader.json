@@ -1,16 +1,16 @@
 {
-    "version": "1.0.5.8",
+    "version": "1.0.6.0",
     "description": "A download manager for the HTTP(S) and FTP(S) protocols.",
     "homepage": "https://erickutcher.github.io/#HTTP_Downloader",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.5.8/HTTP_Downloader_64.zip",
-            "hash": "96bd85868662c2586d96143def176c564dc5f68ce672b46dfb1d9046fc0e2fdb"
+            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.0/HTTP_Downloader_64.zip",
+            "hash": "286533bb71457f02bb416e15a2a62fe11ccb22cbfa961dfd7795a3eac6b58755"
         },
         "32bit": {
-            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.5.8/HTTP_Downloader_32.zip",
-            "hash": "7ff2b807802de46d4403d394b3a6ad8abc41fa923098049b1cbb3749469aa6ba"
+            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.0/HTTP_Downloader_32.zip",
+            "hash": "baf3f8f182ea2f606401ca60c2f28f763253155ba05d0d5d952b9330396e712a"
         }
     },
     "pre_install": [
