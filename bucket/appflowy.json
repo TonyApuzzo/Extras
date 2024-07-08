@@ -5,11 +5,11 @@
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.6.3/AppFlowy-0.6.3-windows-x86_64.exe",
-            "hash": "cf8623a1e91efe074139329da4434b8752139ffa2995bf3491ef82ea13b7221a"
+            "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.6.3/AppFlowy-0.6.3-windows-x86_64.zip",
+            "hash": "d5111600a8852fc3588e7e82cb2d7fdef710931d60a4aad096db1c3b01c238dc"
         }
     },
-    "innosetup": true,
+    "extract_dir": "AppFlowy",
     "shortcuts": [
         [
             "AppFlowy.exe",
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-$version-windows-x86_64.exe"
+                "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-$version-windows-x86_64.zip"
             }
         }
     }
