@@ -1,5 +1,5 @@
 {
-    "version": "2024.2.33606",
+    "version": "2024.2.35942",
     "description": "YouTrack, TeamCity, and Upsource Connector by JetBrains.",
     "homepage": "https://www.jetbrains.com/hub/",
     "license": {
@@ -7,9 +7,9 @@
         "url": "https://www.jetbrains.com/legal/docs/hub/license"
     },
     "notes": "Hub can be started from anywhere using 'jetbrains-hub' command.",
-    "url": "https://download.jetbrains.com/hub/hub-2024.2.33606.zip",
-    "hash": "d3d002ef17559bef9ca37c2ddd64f59ba4b9eeb9957a91c58e0dc62bf2c1427b",
-    "extract_dir": "hub-2024.2.33606",
+    "url": "https://download.jetbrains.com/hub/hub-2024.2.35942.zip",
+    "hash": "e01d929a3f8275ab668d39f44341d69340fc7c05e4312be22214f8399793325f",
+    "extract_dir": "hub-2024.2.35942",
     "installer": {
         "script": [
             "$ver_path = \"$dir\\bin\"",

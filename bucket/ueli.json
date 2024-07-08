@@ -1,10 +1,10 @@
 {
-    "version": "8.29.0",
+    "version": "9.0.1",
     "description": "A keystroke launcher",
     "homepage": "https://ueli.app/",
     "license": "MIT",
-    "url": "https://github.com/oliverschwendener/ueli/releases/download/v8.29.0/ueli-8.29.0-win.zip",
-    "hash": "7f94b2f69335f6acdeb20541ffee8215f607508588a79b385cef8702aedf562b",
+    "url": "https://github.com/oliverschwendener/ueli/releases/download/v9.0.1/ueli-9.0.1-win.zip",
+    "hash": "d60e44383e17bceb6099a42cf6542c4c83bda012a276b7893edb619a06f8a7e1",
     "bin": "ueli.exe",
     "shortcuts": [
         [
