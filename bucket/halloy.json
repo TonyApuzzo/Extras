@@ -9,7 +9,7 @@
             "hash": "0992ea096927b1809674709e1878924c41c93680952c6e96916ecb7b48f78358"
         }
     },
-    "extract_dir": "PFiles/Halloy",
+    "extract_dir": "PFiles64/Halloy",
     "installer": {
         "script": [
             "if (!(Test-Path \"$persist_dir\\config.toml\")) {",
