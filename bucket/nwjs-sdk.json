@@ -1,18 +1,18 @@
 {
-    "version": "0.90.0",
+    "version": "0.92.0",
     "description": "An app runtime based on Chromium and NodeJS",
     "homepage": "https://nwjs.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dl.nwjs.io/v0.90.0/nwjs-sdk-v0.90.0-win-x64.zip",
-            "hash": "5daf56d4627c02305391f67bea96311b5629050c7c0fd5e62735ba7c0519c1ef",
-            "extract_dir": "nwjs-sdk-v0.90.0-win-x64"
+            "url": "https://dl.nwjs.io/v0.92.0/nwjs-sdk-v0.92.0-win-x64.zip",
+            "hash": "3eb03608ad8bcdd3065923c206bd742e58676309163c91b6a0db116106a1c1af",
+            "extract_dir": "nwjs-sdk-v0.92.0-win-x64"
         },
         "32bit": {
-            "url": "https://dl.nwjs.io/v0.90.0/nwjs-sdk-v0.90.0-win-ia32.zip",
-            "hash": "cfdb061a66da46185ffdc5c3d42a4da961171e2dc68f169285da8f36c2dce7af",
-            "extract_dir": "nwjs-sdk-v0.90.0-win-ia32"
+            "url": "https://dl.nwjs.io/v0.92.0/nwjs-sdk-v0.92.0-win-ia32.zip",
+            "hash": "3fae13d35f3c6241226d0756082c0a31095ac4c0109c58e25a78d6899052a82a",
+            "extract_dir": "nwjs-sdk-v0.92.0-win-ia32"
         }
     },
     "extract_to": "nwjs-sdk",

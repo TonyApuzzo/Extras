@@ -1,16 +1,16 @@
 {
-    "version": "0.83.0",
+    "version": "0.85.1",
     "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
     "homepage": "https://github.com/microsoft/PowerToys",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.83.0/PowerToysUserSetup-0.83.0-x64.exe",
-            "hash": "c78e24f21c611f2bd774d8460add4b9ac8519085ca1253941cb46129331ab8c8"
+            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.85.1/PowerToysUserSetup-0.85.1-x64.exe",
+            "hash": "5f287c34bf68972c55d7c26585ea5c449b0dba7d458bf7039cff448e1d7b732b"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.83.0/PowerToysUserSetup-0.83.0-arm64.exe",
-            "hash": "ba1c16003d55587d523a41b960d4a03718123ca37577d5f2a75e151d7653e6d3"
+            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.85.1/PowerToysUserSetup-0.85.1-arm64.exe",
+            "hash": "6d5c3b24156e6e66fd38ad15076b8442f0a1c5cfcbbdc33ad478fb27e5e086ae"
         }
     },
     "installer": {

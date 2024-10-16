@@ -1,5 +1,5 @@
 {
-    "version": "1.20.11781.0",
+    "version": "1.21.2701.0",
     "description": "The new Windows Terminal, and the original Windows console host - all in the same place!",
     "homepage": "https://github.com/microsoft/terminal",
     "license": "MIT",
@@ -9,19 +9,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_x64.zip",
-            "hash": "b7a6046903ce33d75250da7e40ad2929e51703ab66e9c3a0b02a839c2e868fec"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2701.0/Microsoft.WindowsTerminal_1.21.2701.0_x64.zip",
+            "hash": "2f712872ed7f552763f3776ea7a823c9e7413cfd5ec65b88e95162e93acef899"
         },
         "32bit": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_x86.zip",
-            "hash": "32a80220acf4512676ea8fb4eb503f18832a17da8c03b85fcf9cd8a0da34e3b2"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2701.0/Microsoft.WindowsTerminal_1.21.2701.0_x86.zip",
+            "hash": "a8376386dd7af6d3e124a97ac1996e3273179b5cca6c4a75fc89c81960359c4a"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_arm64.zip",
-            "hash": "f3bf1529ea629bb586817ce81ddba28a2c64e83b71b023bc1e652745b70da9be"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2701.0/Microsoft.WindowsTerminal_1.21.2701.0_arm64.zip",
+            "hash": "65d67c4add4ac09d2c34f9c2bc21c38aaf36bd72590b9ff51a0563d78b1b695a"
         }
     },
-    "extract_dir": "terminal-1.20.11781.0",
+    "extract_dir": "terminal-1.21.2701.0",
     "pre_install": [
         "# Remove this hint in 2023-12-01",
         "$settings_path = \"$env:LOCALAPPDATA\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\"",

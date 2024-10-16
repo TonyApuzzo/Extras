@@ -1,13 +1,13 @@
 {
-    "version": "2024.1.5-241.18968.29",
+    "version": "2024.2.3-242.23339.19",
     "description": "Cross-Platform IDE for Python by JetBrains.",
     "homepage": "https://www.jetbrains.com/pycharm/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "url": "https://download.jetbrains.com/python/pycharm-professional-2024.1.5.exe#/dl.7z",
-    "hash": "33056bec721bd0a43cb870d47bdd95e7e4345001bd7de34991b8e93e1aab3420",
+    "url": "https://download.jetbrains.com/python/pycharm-professional-2024.2.3.exe#/dl.7z",
+    "hash": "79b4eeee43f04e4b23f4637a2fd18a77dc1802221960a1180d024753cfec32d1",
     "extract_to": "IDE",
     "pre_install": [
         "Get-ChildItem \"$persist_dir\\IDE\\bin\\pycharm*.exe.vmoptions\" -ErrorAction SilentlyContinue | Copy-Item -Destination \"$dir\\IDE\\bin\"",

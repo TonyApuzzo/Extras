@@ -1,5 +1,5 @@
 {
-    "version": "3.24.0",
+    "version": "3.24.3",
     "description": "Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop",
     "homepage": "https://flutter.dev",
     "license": "BSD-3-Clause",
@@ -13,8 +13,8 @@
         ],
         "Visual Studio Code with Flutter extension": "extras/vscode"
     },
-    "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.24.0-stable.zip",
-    "hash": "68dbcb68b3a193a67f69924bf9fa48e8e34ec8ca942dea912d20f9106d07a9b9",
+    "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.24.3-stable.zip",
+    "hash": "74007227350e1c73278e90fba5b1d02780e7299d4d48fdacff035c669530a6d8",
     "extract_dir": "flutter",
     "env_add_path": "bin",
     "env_set": {
