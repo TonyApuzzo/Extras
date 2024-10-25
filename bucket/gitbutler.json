@@ -1,12 +1,12 @@
 {
-    "version": "0.13.4",
+    "version": "0.13.7",
     "description": "A Git client for simultaneous branches on top of your existing workflow.",
     "homepage": "https://gitbutler.com/",
     "license": "FSL-1.1-MIT",
     "architecture": {
         "64bit": {
-            "url": "https://releases.gitbutler.com/releases/release/0.13.4-1370/windows/x86_64/GitButler_0.13.4_x64_en-US.msi",
-            "hash": "4a7a9def43a270715ee336f9b7ba69adcc846afb0d1fb9e036814d54512d7a0c",
+            "url": "https://releases.gitbutler.com/releases/release/0.13.7-1392/windows/x86_64/GitButler_0.13.7_x64_en-US.msi",
+            "hash": "8f0d56ce296b30c374c5232ffc11d8de0763e6a1065becbd525751fd5b229276",
             "extract_dir": "PFiles/GitButler"
         }
     },
