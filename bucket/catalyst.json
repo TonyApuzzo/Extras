@@ -1,12 +1,12 @@
 {
-    "version": "3.8.4",
+    "version": "3.9.2",
     "description": "A minimal, functional, and customizable user-focused FOSS web browser",
     "homepage": "https://getcatalyst.eu.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.4/catalyst-3.8.4-full.nupkg",
-            "hash": "sha1:392ea0113e8b22122393f879332427a3902fd790",
+            "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.9.2/catalyst-3.9.2-full.nupkg",
+            "hash": "sha1:5d2583bd7032fd22b708c3c17eb35e725cac59ec",
             "extract_dir": "lib\\net45"
         }
     },
