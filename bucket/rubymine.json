@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "url": "https://download.jetbrains.com/ruby/RubyMine-2024.2.4.exe#/dl.7z",
-    "hash": "f21b11c2dde5ddcc8efcd65716b6d88403c4d145c3c8be904edcd42d846a2822",
+    "url": "https://download.jetbrains.com/ruby/RubyMine-2024.2.4.win.zip",
+    "hash": "92f90b415442676236c4dd39a4db5fe6cec2be5aa5b80294fa7fa3ad059be7d6",
     "extract_to": "IDE",
     "installer": {
         "script": [
@@ -52,7 +52,7 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/ruby/RubyMine-$matchHead.exe#/dl.7z",
+        "url": "https://download.jetbrains.com/ruby/RubyMine-$matchVer.win.zip",
         "hash": {
             "url": "$url.sha256"
         }

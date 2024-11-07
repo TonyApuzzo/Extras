@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "url": "https://download.jetbrains.com/datagrip/datagrip-2024.2.2.exe#/dl.7z",
-    "hash": "e243acd7df23db15e1919b9f37eb6ea4683d923eb3cff9a8c140677fec797b02",
+    "url": "https://download.jetbrains.com/datagrip/datagrip-2024.2.2.win.zip",
+    "hash": "be799bb01be205d1587b57af03266582af3fb060e9f69235f785380410fde63a",
     "extract_to": "IDE",
     "installer": {
         "script": [
@@ -52,7 +52,7 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/datagrip/datagrip-$matchHead.exe#/dl.7z",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-$matchVer.win.zip",
         "hash": {
             "url": "$url.sha256"
         }

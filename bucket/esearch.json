@@ -16,10 +16,10 @@
             "hash": "bb9f48c2e33e9e000869cba4cf4b6055f16a289a5232f62f00cca741924b4801"
         }
     },
-    "bin": "eSearch.exe",
+    "bin": "e-search.exe",
     "shortcuts": [
         [
-            "eSearch.exe",
+            "e-search.exe",
             "eSearch"
         ]
     ],

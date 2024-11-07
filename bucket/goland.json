@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "url": "https://download.jetbrains.com/go/goland-2024.2.3.exe#/dl.7z",
-    "hash": "f1034b13cbb8a1c0b6f485a4fa5e38355e9d04928e163018195a356cfa582da1",
+    "url": "https://download.jetbrains.com/go/goland-2024.2.3.win.zip",
+    "hash": "217fb4461899d0ce3ccc01a09291139efc3b61e0ee703232655d93791404332e",
     "extract_to": "IDE",
     "installer": {
         "script": [
@@ -52,7 +52,7 @@
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/go/goland-$matchHead.exe#/dl.7z",
+        "url": "https://download.jetbrains.com/go/goland-$matchVer.win.zip",
         "hash": {
             "url": "$url.sha256"
         }
