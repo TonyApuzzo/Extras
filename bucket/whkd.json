@@ -1,16 +1,16 @@
 {
-    "version": "0.2.2",
+    "version": "0.2.5",
     "description": "A simple hotkey daemon for Windows",
     "homepage": "https://github.com/LGUG2Z/whkd",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LGUG2Z/whkd/releases/download/v0.2.2/whkd-0.2.2-x86_64-pc-windows-msvc.zip",
-            "hash": "b32626ef1e1fa91f955048fd5da5b93a432c7ea42f307a017cdb486b8a21f410"
+            "url": "https://github.com/LGUG2Z/whkd/releases/download/v0.2.5/whkd-0.2.5-x86_64-pc-windows-msvc.zip",
+            "hash": "980d114bf18f2d9a54ef1316619eef96d33841ce0159d91a05925700cde79b30"
         },
         "arm64": {
-            "url": "https://github.com/LGUG2Z/whkd/releases/download/v0.2.2/whkd-0.2.2-aarch64-pc-windows-msvc.zip",
-            "hash": "23eacf3cf8d45ab572dd7abed25d44e16d1f2df59013acaa0ce47f96e32d0b52"
+            "url": "https://github.com/LGUG2Z/whkd/releases/download/v0.2.5/whkd-0.2.5-aarch64-pc-windows-msvc.zip",
+            "hash": "f48211eb237b1d1fbce4d4df923bd5b84e6bc4ceb9116addb6ba3a7b1fcdb119"
         }
     },
     "bin": "whkd.exe",

@@ -1,10 +1,10 @@
 {
-    "version": "12094568244",
+    "version": "12816565043",
     "description": "A free form data organizer and a replacement for spreadsheets, mind mappers, outliners, PIMs, text editors and small databases.",
     "homepage": "https://strlen.com/treesheets",
     "license": "ZLIB",
-    "url": "https://github.com/aardappel/treesheets/releases/download/12094568244/windows_treesheets_no_installer.zip",
-    "hash": "91f7de6dbcdc145e1543fd3ff9600129d911c37923fd7ade107c9bd922b53484",
+    "url": "https://github.com/aardappel/treesheets/releases/download/12816565043/windows_treesheets_no_installer.zip",
+    "hash": "bd407b5a233572d8f5e7cce38ed45a86ed66082591d6548081cb5113935c88cb",
     "extract_dir": "TS",
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",

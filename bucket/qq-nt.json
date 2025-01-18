@@ -1,5 +1,5 @@
 {
-    "version": "9.9.16.241121",
+    "version": "9.9.17.250110",
     "description": "An instant messaging software service developed by Tencent",
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241121_x64_01.exe#/dl.7z",
-            "hash": "59539f0c40f617a236c339830dbf52dd2dd0d3701306c3577fb927d90f070b6b"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.17_250110_x64_01.exe#/dl.7z",
+            "hash": "cf02935bb2a6c245637a3c04f72c002a9957e1edfe3c912b2a37c32694fef082"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241121_x86_01.exe#/dl.7z",
-            "hash": "2269a64bba7800cd82a3ea43359210bd6c35efac26b2d698c6b8ab46c5374f97"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.17_250110_x86_01.exe#/dl.7z",
+            "hash": "74075d88a9598082442f0e7ee2e9181bd10b8143a87674a0f4d0eeb074c11685"
         },
         "arm64": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241121_arm64_01.exe#/dl.7z",
-            "hash": "6e217f12a0102d9763b418659327f87dc6de814424afa58e07be34b35c17abcb"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.17_250110_arm64_01.exe#/dl.7z",
+            "hash": "eb7e6b803b2a1f5e1d1525ec6c52bb4c9df2d22da0f38bdf13599debc6d0c57f"
         }
     },
     "extract_dir": "Files",
