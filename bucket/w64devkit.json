@@ -1,16 +1,16 @@
 {
-    "version": "2.6.0",
+    "version": "2.8.0",
     "description": "Portable C and C++ Development Kit for x64 Windows",
     "homepage": "https://github.com/skeeto/w64devkit",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.6.0/w64devkit-x64-2.6.0.exe#/dl.7z",
-            "hash": "93ed4fa5536fedabca3bb59edb19abd24d1107599a582ae4e4a5377d4384168a"
+            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.8.0/w64devkit-x64-2.8.0.7z.exe#/dl.7z",
+            "hash": "6252bf34fe2231a55ac7f03d482b36d2c7c58697990551bba508102cfb3f342e"
         },
         "32bit": {
-            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.6.0/w64devkit-x86-2.6.0.exe#/dl.7z",
-            "hash": "8a1d136fdfc88e8b1fa03855993b1647282723ec6dace794d4b468a69ef7ae6c"
+            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.8.0/w64devkit-x86-2.8.0.7z.exe#/dl.7z",
+            "hash": "5d546d7eb8bcb8280088770abd3633ec2a9131c45e22dd2a0b4fd4971da8e23b"
         }
     },
     "extract_dir": "w64devkit",
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/skeeto/w64devkit/releases/download/v$version/w64devkit-x64-$version.exe#/dl.7z"
+                "url": "https://github.com/skeeto/w64devkit/releases/download/v$version/w64devkit-x64-$version.7z.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/skeeto/w64devkit/releases/download/v$version/w64devkit-x86-$version.exe#/dl.7z"
+                "url": "https://github.com/skeeto/w64devkit/releases/download/v$version/w64devkit-x86-$version.7z.exe#/dl.7z"
             }
         }
     }

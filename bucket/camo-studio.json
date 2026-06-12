@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://reincubate.com/res/labs/camo/camo-windows-latest.msi",
-            "hash": "606aa60460a1b0bde61c57953a20dab69a9f3b2c6e8e54f02d2fa38c52ba9da8"
+            "hash": "5520f14293e9e041d184ca406c55b1ca2c889781cf800921e7ad2db5b8ce6191"
         }
     },
     "extract_dir": "Camo Studio",

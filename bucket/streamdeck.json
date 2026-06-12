@@ -9,7 +9,7 @@
             "hash": "af93b3ca801b101c0d76a1f4bb2259e81282bff2976607acfa9aea04dd3c2b04"
         }
     },
-    "extract_dir": "Elgato\\StreamDeck",
+    "extract_dir": "PFiles64\\Elgato\\StreamDeck",
     "bin": "StreamDeck.exe",
     "shortcuts": [
         [

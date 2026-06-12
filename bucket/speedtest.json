@@ -14,7 +14,7 @@
         },
         "32bit": {
             "url": "https://install.speedtest.net/app/windows/latest/speedtestbyookla_x86.msi",
-            "hash": "564c2d5eebd211eead252181177450477fcf69ecd4e423be36c69ad2839477ab",
+            "hash": "15783895ae75387e14ca314837cdca96bef36a69a8923746ca31c78edf48b199",
             "extract_dir": "ProgramFilesFolder\\Speedtest"
         }
     },

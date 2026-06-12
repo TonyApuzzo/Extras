@@ -5,14 +5,19 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netbirdio/netbird/releases/download/v0.72.4/netbird_0.72.4_windows_amd64_signed.tar.gz",
-            "hash": "9c00b8f811d4af4a6679ad713f5b02a7badd2ab773a7f911df6414d4b1a44b04"
+            "url": "https://github.com/netbirdio/netbird/releases/download/v0.72.4/netbird_installer_0.72.4_windows_amd64.exe#/dl.7z",
+            "hash": "77e9fdbccb9d5c82d2fbeca659d544ec8c05f9ad8c455608878fd93ee9fe3aed"
+        },
+        "arm64": {
+            "url": "https://github.com/netbirdio/netbird/releases/download/v0.72.4/netbird_installer_0.72.4_windows_arm64.exe#/dl.7z",
+            "hash": "0149dea749e46391789b92f8690ca580fd0d09e6ac4629e4b72ba13f46b58319"
         }
     },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "bin": "netbird.exe",
     "shortcuts": [
         [
-            "netbird.exe",
+            "netbird-ui.exe",
             "netbird"
         ]
     ],
@@ -22,7 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/netbirdio/netbird/releases/download/v$version/netbird_$version_windows_amd64_signed.tar.gz"
+                "url": "https://github.com/netbirdio/netbird/releases/download/v$version/netbird_installer_$version_windows_amd64.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/netbirdio/netbird/releases/download/v$version/netbird_installer_$version_windows_arm64.exe#/dl.7z"
             }
         }
     }

@@ -6,8 +6,8 @@
         "identifier": "Shareware",
         "url": "https://www.faststone.org/order.htm"
     },
-    "url": "http://www.faststonesoft.net/DN/FSResizer45.zip",
-    "hash": "79996fb77d18e5b94632995b3c02566ca7175522cde378887a7633bfe3fa72e3",
+    "url": "https://www.faststonesoft.net/DN/FSResizer45.zip",
+    "hash": "bc6de20d6424f7bd27c7e3d69861dacc24ecdc23effff982bcda262e66f2a9f7",
     "extract_dir": "FSResizer45",
     "pre_install": "if (!(Test-Path \"$persist_dir\\FSResizerSettings.db\")) { New-Item \"$dir\\FSResizerSettings.db\" | Out-Null }",
     "bin": "FSResizer.exe",
@@ -20,7 +20,7 @@
     "persist": "FSResizerSettings.db",
     "checkver": "Version\\s+([\\d.]+)",
     "autoupdate": {
-        "url": "http://www.faststonesoft.net/DN/FSResizer$cleanVersion.zip",
+        "url": "https://www.faststonesoft.net/DN/FSResizer$cleanVersion.zip",
         "extract_dir": "FSResizer$cleanVersion"
     }
 }

@@ -11,7 +11,7 @@
         },
         "32bit": {
             "url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-win32-portable.zip",
-            "hash": "a335e06e1a8e4f8a4857775198457eefa68d7f31f577c10fc71994a2784c443d",
+            "hash": "86ee8dec74ee5677e08b0f501c4128dd15622d48cb5001dc91f9e673b4df8fb7",
             "extract_dir": "mmex-1.9.2-win32"
         }
     },
