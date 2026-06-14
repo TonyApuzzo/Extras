@@ -1,0 +1,39 @@
+{
+    "version": "1.4.4",
+    "description": "Offline speech-to-text transcription and translation app powered by Whisper.",
+    "homepage": "https://github.com/chidiwilliams/buzz",
+    "license": "MIT",
+    "notes": [
+        "Buzz for Windows is unsigned; Windows SmartScreen may warn on first launch.",
+        "The Windows package is large because it bundles Whisper/runtime components.",
+        "See https://chidiwilliams.github.io/buzz/docs/installation for details."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.4-Windows-X64.zip",
+            "hash": "4006ea246e7401dd1c1392ed24d65c0ae27dc2840207494bf240adfebbf37aa1"
+        }
+    },
+    "pre_install": [
+        "$installer = \"$dir\\Buzz-$version-windows.exe\"",
+        "if (!(Test-Path $installer)) { abort \"Installer not found: $installer\" }",
+        "Expand-InnoArchive $installer $dir",
+        "Remove-Item \"$dir\\Buzz-$version-windows*.bin\", $installer -Force"
+    ],
+    "bin": [["Buzz.exe", "buzz"]],
+    "shortcuts": [["Buzz.exe", "Buzz"]],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/buzz-captions/files/",
+        "regex": "Buzz-([\\d.]+)-Windows-X64\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-$version-Windows-X64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
