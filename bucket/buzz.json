@@ -1,5 +1,5 @@
 {
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "Offline speech-to-text transcription and translation app powered by Whisper.",
     "homepage": "https://github.com/chidiwilliams/buzz",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.4-Windows-X64.zip",
-            "hash": "4006ea246e7401dd1c1392ed24d65c0ae27dc2840207494bf240adfebbf37aa1"
+            "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.5-Windows-X64.zip",
+            "hash": "3d4e69977d93ff8e38149934de46e02e28078cfca1e9e835998e1ffd574a72be"
         }
     },
     "pre_install": [
