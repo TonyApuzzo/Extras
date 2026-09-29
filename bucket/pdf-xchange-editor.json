@@ -1,5 +1,5 @@
 {
-    "version": "11.0.1.0",
+    "version": "11.1.0.0",
     "description": "A fast and feature-rich PDF viewer/editor.",
     "homepage": "https://www.pdf-xchange.com/product/pdf-xchange-editor",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.pdf-xchange.com/downloads/PXCEditor11_Portable_x64.zip?version=11.0.1.0",
-            "hash": "df1c3f8e934034757ea674ecc4dd8af758964c09a54dc56d8772bdf611112dba"
+            "url": "https://www.pdf-xchange.com/downloads/PXCEditor11_Portable_x64.zip?version=11.1.0.0",
+            "hash": "80ade71defab7ced0b90d280668587d1bf5e26c2c7d24dee4c585f69263f6600"
         },
         "32bit": {
-            "url": "https://www.pdf-xchange.com/downloads/PXCEditor11_Portable_x86.zip?version=11.0.1.0",
-            "hash": "56a39ac21ba0cee74f1fee6228577aad3f379e6c925a6596eba20e5647aeeca4"
+            "url": "https://www.pdf-xchange.com/downloads/PXCEditor11_Portable_x86.zip?version=11.1.0.0",
+            "hash": "55485fce77ce3f645986d6463962f8078698e56923a8666b5850caa2470aa4bd"
         }
     },
     "pre_install": [
